@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <!--<LinearLayout
+        android:id="@+id/ll_login_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.goka.kenburnsview.KenBurnsView
+            android:id="@+id/kbv_background_images"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>-->
+    <com.flaviofaria.kenburnsview.KenBurnsView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bg_three" />
+
+
+</LinearLayout>
